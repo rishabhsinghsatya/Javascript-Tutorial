@@ -7,6 +7,7 @@ console.log(a != b); // true
 //Strict Equality (===) and Strict Inequality (!==):
 let x = 5;
 let y = "5";
+console.log(x == y); // false
 console.log(x === y); // false
 console.log(x !== y); // true
 

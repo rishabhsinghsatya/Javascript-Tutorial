@@ -3,7 +3,7 @@
 // Addition +:
 
 let result1 = 5 + 3; // result will be 8
-console.log(result);
+console.log(result1);
 
 // Subtraction -:
 let result2 = 10 - 4; // result will be 6

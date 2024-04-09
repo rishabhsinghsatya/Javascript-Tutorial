@@ -36,15 +36,18 @@ var str = "apple,banana,cherry";
 var arr = str.split(",");
 console.log(typeof str);
 console.log(typeof arr);
+console.log(arr);
 
 //Array to String
 var arr = ["apple", "banana", "cherry"];
 var str = arr.join(", ");
 console.log(typeof arr);
 console.log(typeof str);
+console.log(str);
 
 //String to Object
 var str = '{"name":"John","age":30}';
 var obj = JSON.parse(str);
 console.log(typeof str);
 console.log(typeof obj);
+console.log(obj);
