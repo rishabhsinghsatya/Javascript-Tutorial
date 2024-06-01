@@ -38,8 +38,19 @@ const sum = numbers.reduce((accumulator, currentValue) => {
 
 console.log(sum);
 
-//slice or splice ===========================================================
-
 //spread operator=====================
+
+const array1 = [1, 2, 3];
+const array2 = [...array1];
+
+console.log(array2); // Output: [1, 2, 3]
+
+// Example 2: Concatenating arrays
+const array3 = [4, 5, 6];
+const concatenatedArray = [...array1, ...array3];
+
+console.log(concatenatedArray); // Output: [1, 2, 3, 4, 5, 6]
+
+//slice or splice ===========================================================
 
 //flat function=======================
