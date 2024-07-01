@@ -46,3 +46,31 @@ function power(base, exponent) {
   return base * power(base, exponent - 1);
 }
 console.log(power(2, 3)); // 8
+
+// 6. Check if a String is a Palindrome
+function isPalindrome(str) {
+  let arr = str.split("");
+  let i = 0;
+  let j = str.length - 1;
+
+  while (i < j) {
+    if (arr[i] == arr[j]) {
+      i++;
+      j--;
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
+console.log(isPalindrome("racecar"));
+
+// reverse a string
+function strReverse(str) {
+  if (str === "") {
+    return "";
+  } else {
+    return strReverse(str.substr(1)) + str.charAt(0);
+  }
+}
+console.log(strReverse("JavaScript"));
