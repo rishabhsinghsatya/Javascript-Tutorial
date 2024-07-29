@@ -20,7 +20,7 @@ Make sure you have the following installed:
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the repo:
 
    ```bash
    git clone https://github.com/rishabhsinghsatya/Javascript-Tutorial.git
