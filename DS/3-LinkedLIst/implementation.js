@@ -1,4 +1,3 @@
-// Define the Node class
 class Node {
   constructor(data) {
     this.data = data;
@@ -6,12 +5,14 @@ class Node {
   }
 }
 
-// Define the LinkedList class
 class LinkedList {
   constructor() {
     this.head = null;
-    this.size = 0;
+  }
+
+  addFirst(data){
+    const newNode = new Node(data);
+    newNode.next = this.head;
+    this.head = newNode;
   }
 }
-
-// Add element to the end of the list
